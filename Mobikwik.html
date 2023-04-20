@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/1187491213.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #screen {
+            width: 100%;
+            height: 900px;
+            border: 2px solid red;
+            display: flex;
+            
+            
+        }
+        #screen >div:nth-child(1){
+            width: 25%;
+            /* height: 800px; */
+            border: 2px solid red;
+            /* justify-content: space-around; */
+            /* position: fixed; */
+            /* left: 0px; */
+            top: 0px;
+            
+        }
+        #screen >div:nth-child(1) >div{
+            width: 90%;
+            height: 800px;
+            /* border: 2px solid red; */
+            /* margin-top: 20px; */
+            background-color: #002447;
+
+        }
+        #screen >div:nth-child(1) >div >img {
+            width: 85%;
+            height: 60px;
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        #screen >div:nth-child(1) >div >div{
+            width: 85%;
+            height: 25px;
+            /* border: 2px solid green; */
+            margin-top: 12px;
+            margin-left: 30px;
+            color: snow;
+            display: flex;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(2) >h3 {
+            margin-top: 3px;
+            font-size: 13px;
+            margin-left: 10px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(2) >img {
+            width: 16%;
+            height: 20px;
+            border-radius: 30px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(3) >h3 {
+            margin-top: 3px;
+            font-size: 13px;
+            margin-left: 10px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(3) >img {
+            width: 16%;
+            height: 20px;
+            border-radius: 30px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(4) >h3 {
+            margin-top: 3px;
+            font-size: 13px;
+            margin-left: 10px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(4) >img {
+            width: 16%;
+            height: 20px;
+            border-radius: 30px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(5) >h3 {
+            margin-top: 3px;
+            font-size: 13px;
+            margin-left: 11px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(5) >img {
+            width: 16%;
+            height: 20px;
+            border-radius: 30px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(6) >h3 {
+            margin-top: 3px;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(6) >img {
+            width: 16%;
+            height: 20px;
+            border-radius: 30px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(7) >h3 {
+            margin-top: 2px;
+            font-size: 13px;
+            margin-left: 10px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(7) >img {
+            width: 16%;
+            height: 20px;
+            border-radius: 30px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(8) {
+            font-size: 11px;
+            margin-left: 15px;
+            margin-top: 20px;
+            color: gray;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(9) >h3 {
+            margin-top: 2px;
+            font-size: 13px;
+            margin-left: 15px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(9) >img {
+            width: 12%;
+            height: 22px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(10) >h3 {
+            margin-top: 5px;
+            font-size: 13px;
+            margin-left: 15px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(10) >img {
+            width: 12%;
+            height: 22px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(11) >h3 {
+            margin-top: 5px;
+            font-size: 13px;
+            margin-left: 15px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(11) >img {
+            width: 12%;
+            height: 24px;
+            border-radius: 15px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(12) >h3 {
+            margin-top: 5px;
+            font-size: 13px;
+            margin-left: 15px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(12) >img {
+            width: 12%;
+            height: 24px;
+            border-radius: 25px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(13) >h3 {
+            margin-top: 5px;
+            font-size: 13px;
+            margin-left: 15px;
+        }
+        #screen >div:nth-child(1) >div >div:nth-child(13) >img {
+            width: 12%;
+            height: 24px;
+            border-radius: 20px;
+        }
+        #screen >div:nth-child(2){
+            width: 70%;
+            height: 3000px;
+            border: 2px solid red;
+            /* margin: auto; */
+            /* margin-left: 100px; */
+            
+        }
+        #screen >div:nth-child(2) >div:nth-child(1){
+            width: 100%;
+            height: 50px;
+            /* border: 2px solid red; */
+            display: flex;   
+        }
+        #screen >div:nth-child(2) >div:nth-child(1) >div:nth-child(1){
+            margin-left: 500px;
+            margin-top: 10px;
+            margin-right: -170px;
+            color: #0a77e4;
+        }
+        #screen >div:nth-child(2) >div:nth-child(1) >div:nth-child(3) {
+            margin-top: 10px;
+            margin-left: -170px;
+            margin-right: -170px;
+            color: #0a77e4;
+        }
+        #screen >div:nth-child(2) >div:nth-child(1) >div:nth-child(5) {
+            margin-top: 10px;
+            margin-left: -170px;
+            margin-right: -170px;
+            color: #0a77e4;
+        }
+        #screen >div:nth-child(2) >div:nth-child(1) >div:nth-child(7) {
+            margin-top: 10px;
+            margin-left: -180px;
+            margin-right: 60px;
+            color: #0a77e4;
+        }
+
+        
+        #head {
+            width: 100%;
+            height: 265px;
+            /* border: 2px solid green; */
+            margin-top: 10px;
+            background-color: #002447;
+            
+        }
+        #head >div:nth-child(1){
+            width: 95%;
+            height: 60px;
+            /* border: 2px solid green; */
+            margin-left: 30px;
+            display: flex;
+            
+        }
+        #head >div:nth-child(1) >h2 {
+            /* margin-top: 28px; */
+            color: snow;
+            /* font-family: sans-serif; */
+            
+        }
+        #head >div:nth-child(1) >h6 {
+            color: rgb(102, 94, 94);
+            margin-left: 600px;
+            font-family: sans-serif;
+        }
+        #head >div:nth-child(2){
+            width: 95%;
+            height: 70px;
+            /* border: 2px solid green; */
+            margin-left: 30px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 23px;
+                        
+        }
+        #head >div:nth-child(2) >div:nth-child(1) {
+            width: 10%;
+            height: 70px;
+            /* border: 2px solid red; */
+        }
+        #head >div:nth-child(2) >div:nth-child(1) >img {
+            width: 38%;
+            height: 35px;
+            margin-left: 22px;
+            border-radius: 30px;
+        }
+        #head >div:nth-child(2) >div:nth-child(1) >h4 {
+            font-size: 12px;
+            font-family: sans-serif;
+            color: snow;
+            margin-top: 8px;
+            margin-left: 20px;
+        }
+        #head >div:nth-child(2) >div:nth-child(2) {
+            width: 9%;
+            height: 70px;
+            /* border: 2px solid red; */
+        }
+        #head >div:nth-child(2) >div:nth-child(2) >img {
+            width: 40%;
+            height: 35px;
+            margin-left: 20px;
+            border-radius: 30px;
+        }
+        #head >div:nth-child(2) >div:nth-child(2) >h4 {
+            font-size: 12px;
+            font-family: sans-serif;
+            color: rgb(133, 120, 120);
+            margin-top: 8px;
+            margin-left: 22px;
+        }
+        #head >div:nth-child(2) >div:nth-child(3) {
+            width: 9%;
+            height: 70px;
+            /* border: 2px solid red; */
+        }
+        #head >div:nth-child(2) >div:nth-child(3) >img {
+            width: 40%;
+            height: 35px;
+            margin-left: 22px;
+            border-radius: 30px;
+        }
+        #head >div:nth-child(2) >div:nth-child(3) >h4 {
+            font-size: 12px;
+            font-family: sans-serif;
+            color: rgb(133, 120, 120);
+            margin-top: 8px;
+            margin-left: 15px;
+        }
+        #head >div:nth-child(2) >div:nth-child(4) {
+            width: 9%;
+            height: 70px;
+            /* border: 2px solid red; */
+        }
+        #head >div:nth-child(2) >div:nth-child(4) >img {
+            width: 40%;
+            height: 35px;
+            margin-left: 22px;
+            border-radius: 30px;
+        }
+        #head >div:nth-child(2) >div:nth-child(4) >h4 {
+            font-size: 12px;
+            font-family: sans-serif;
+            color: rgb(133, 120, 120);
+            margin-top: 8px;
+            margin-left: 15px;
+        }
+        #head >div:nth-child(2) >div:nth-child(5) {
+            width: 9%;
+            height: 70px;
+            /* border: 2px solid red; */
+        }
+        #head >div:nth-child(2) >div:nth-child(5) >img {
+            width: 40%;
+            height: 35px;
+            margin-left: 22px;
+            border-radius: 30px;
+        }
+        #head >div:nth-child(2) >div:nth-child(5) >h4 {
+            font-size: 12px;
+            font-family: sans-serif;
+            color: rgb(133, 120, 120);
+            margin-top: 8px;
+            margin-left: 15px;
+        }
+        #head >div:nth-child(2) >div:nth-child(6) {
+            width: 9%;
+            height: 70px;
+            /* border: 2px solid red; */
+        }
+        #head >div:nth-child(2) >div:nth-child(6) >img {
+            width: 40%;
+            height: 35px;
+            margin-left: 22px;
+            border-radius: 30px;
+        }
+        #head >div:nth-child(2) >div:nth-child(6) >h4 {
+            font-size: 12px;
+            font-family: sans-serif;
+            color: rgb(133, 120, 120);
+            margin-top: 8px;
+            margin-left: 15px;
+        }
+        #head >div:nth-child(2) >div:nth-child(7) {
+            width: 9%;
+            height: 70px;
+            /* border: 2px solid red; */
+        }
+        #head >div:nth-child(2) >div:nth-child(7) >img {
+            width: 40%;
+            height: 35px;
+            margin-left: 22px;
+            border-radius: 30px;
+        }
+        #head >div:nth-child(2) >div:nth-child(7) >h4 {
+            font-size: 12px;
+            font-family: sans-serif;
+            color: rgb(133, 120, 120);
+            margin-top: 9px;
+            margin-left: 12px;
+        }
+        #head >div:nth-child(2) >div:nth-child(8) {
+            width: 9%;
+            height: 70px;
+            /* border: 2px solid red; */
+        }
+        #head >div:nth-child(2) >div:nth-child(8) >img {
+            width: 40%;
+            height: 35px;
+            margin-left: 22px;
+            border-radius: 30px;
+        }
+        #head >div:nth-child(2) >div:nth-child(8) >h4 {
+            font-size: 12px;
+            font-family: sans-serif;
+            color: rgb(133, 120, 120);
+            margin-top: 8px;
+            margin-left: 15px;
+        }
+        #head >div:nth-child(2) >div:nth-child(9) {
+            width: 9%;
+            height: 70px;
+            /* border: 2px solid red; */
+        }
+        #head >div:nth-child(2) >div:nth-child(9) >img {
+            width: 40%;
+            height: 35px;
+            margin-left: 18px;
+            border-radius: 28px;
+        }
+        #head >div:nth-child(2) >div:nth-child(9) >h4 {
+            font-size: 12px;
+            font-family: sans-serif;
+            color: rgb(133, 120, 120);
+            margin-top: 8px;
+            margin-left: 12px;
+        }
+        #head >div:nth-child(2) >div:nth-child(10) {
+            width: 9%;
+            height: 70px;
+            /* border: 2px solid red; */
+        }
+        #head >div:nth-child(2) >div:nth-child(10) >img {
+            width: 40%;
+            height: 35px;
+            margin-left: 18px;
+            border-radius: 28px;
+        }
+        #head >div:nth-child(2) >div:nth-child(10) >h4 {
+            font-size: 12px;
+            font-family: sans-serif;
+            color: rgb(133, 120, 120);
+            margin-top: 8px;
+            margin-left: 22px;
+        }
+        #head >div:nth-child(3){
+            width: 96%;
+            height: 85px;
+            border: 2px solid green;
+            margin-left: 20px;
+            margin-top: 10px;
+            background-color: snow;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #head >div:nth-child(3) >div:nth-child(1) >label {
+            font-size: 11px;
+            /* margin-top: 20px; */
+            /* margin-left: -10px; */
+        
+        }
+        #head >div:nth-child(3) >div:nth-child(1) >input {
+            margin-top: 10px;
+            margin-left: 0px;
+            border-radius: 5px;
+            width: 100%;
+            height: 35px;
+            border: 2px solid red;
+        }
+        #head >div:nth-child(3) >div:nth-child(2) >label {
+            font-size: 11px;
+            margin-top: 20px;
+            margin-left: 95px;
+            
+        }
+        #head >div:nth-child(3) >div:nth-child(2) >input {
+            margin-top: 8px;
+            margin-left: 95px;
+            border-radius: 5px;
+            width: 75%;
+            height: 35px;
+        }
+        #head >div:nth-child(3) >div:nth-child(3) >label {
+            font-size: 11px;
+            margin-top: 20px;
+            margin-left: 40px;
+            
+        }
+        #head >div:nth-child(3) >div:nth-child(3) >input {
+            margin-top: 7px;
+            margin-left: 40px;
+            border-radius: 5px;
+            width: 75%;
+            height: 35px;
+        }
+        #head >div:nth-child(3) >div:nth-child(4) >label {
+            font-size: 11px;
+            margin-top: 20px;
+            margin-left: 5px;
+            
+        }
+        #head >div:nth-child(3) >div:nth-child(4) >input {
+            margin-top: 6px;
+            margin-left: 0px;
+            border-radius: 5px;
+            width: 95%;
+            height: 35px;
+        }
+        #head >div:nth-child(3) >button {
+            width: 80px;
+            height: 45px;
+            margin-top: 20px;
+            margin-right: 10px;
+        }
+        #text {
+            width: 95%;
+            height: 270px;
+            /* border: 2px solid red; */
+            margin-top: 25px;
+            margin-left: 18px;
+            
+        }
+        #text >div:nth-child(1){
+            width: 100%;
+            height: 80px;
+            /* border: 2px solid red; */
+            margin-top: 0px;
+           
+        }
+        #text >div:nth-child(1) >h3 {
+            font-family: sans-serif;
+            margin-bottom: 0px;
+            color: rgb(34, 31, 31);
+        }
+        #text >div:nth-child(1) >h5 {
+            font-family: sans-serif;
+            color: rgb(153, 149, 149);
+            margin-top: 8px;
+            font-size: 13px;
+        }
+        #text >div:nth-child(2){
+            width: 100%;
+            height: 170px;
+            /* border: 2px solid red; */
+            margin-top: 0px;
+            display: flex;
+            justify-content: space-between;
+            font-family: sans-serif;
+        }
+        #text >div:nth-child(2) >div:nth-child(1){
+            width: 23%;
+            height: 150px;
+            /* border: 2px solid red; */
+        }
+        #text >div:nth-child(2) >div:nth-child(1) >img {
+            width: 30%;
+            height: 45px;
+            border-radius: 20px;
+        }
+        #text >div:nth-child(2) >div:nth-child(1) >h5 {
+            font-size: 12px;
+            color: rgb(108, 108, 241);
+            margin-top: 10px;
+            margin-bottom: 0px;
+
+        }
+        #text >div:nth-child(2) >div:nth-child(1) >p {
+            font-size: 13px;
+            color: gray;
+            margin-top: 10px;
+        }
+        #text >div:nth-child(2) >div:nth-child(2){
+            width: 22%;
+            height: 150px;
+            /* border: 2px solid red; */
+        }
+        #text >div:nth-child(2) >div:nth-child(2) >img {
+            width: 20%;
+            height: 40px;
+            border-radius: 20px;
+        }
+        #text >div:nth-child(2) >div:nth-child(2) >h5 {
+            font-size: 12px;
+            color: rgb(108, 108, 241);
+            margin-top: 10px;
+            margin-bottom: 0px;
+
+        }
+        #text >div:nth-child(2) >div:nth-child(2) >p {
+            font-size: 13px;
+            color: gray;
+            margin-top: 10px;
+        }
+        #text >div:nth-child(2) >div:nth-child(3){
+            width: 22%;
+            height: 150px;
+            /* border: 2px solid red; */
+        }
+        #text >div:nth-child(2) >div:nth-child(3) >img {
+            width: 20%;
+            height: 40px;
+            border-radius: 20px;
+        }
+        #text >div:nth-child(2) >div:nth-child(3) >h5 {
+            font-size: 12px;
+            color: rgb(108, 108, 241);
+            margin-top: 10px;
+            margin-bottom: 0px;
+
+        }
+        #text >div:nth-child(2) >div:nth-child(3) >p {
+            font-size: 13px;
+            color: gray;
+            margin-top: 10px;
+        }
+        #text >div:nth-child(2) >div:nth-child(4){
+            width: 22%;
+            height: 150px;
+            /* border: 2px solid red; */
+        }
+        #text >div:nth-child(2) >div:nth-child(4) >img {
+            width: 25%;
+            height: 30px;
+            border-radius: 40px;
+            margin-top: 8px;
+        }
+        #text >div:nth-child(2) >div:nth-child(4) >h5 {
+            font-size: 12px;
+            color: rgb(108, 108, 241);
+            margin-top: 10px;
+            margin-bottom: 0px;
+
+        }
+        #text >div:nth-child(2) >div:nth-child(4) >p {
+            font-size: 13px;
+            color: gray;
+            margin-top: 10px;
+        }
+        #para1 {
+            width: 96%;
+            height: 137px;
+            /* border: 2px solid red; */
+            margin-top: 22px;
+            margin-left: 15px;
+            font-family: sans-serif;
+        }
+        #para1 >div:nth-child(1) >h4 {
+            color: #404040;
+        }
+        #para1 >div:nth-child(1) >p {
+            font-size: 12px;
+            color: #666666;
+            
+        }
+        #para1 >div:nth-child(2){
+            width: 100%;
+            height: 250px;
+            /* border: 2px solid red; */
+            margin-top: 30px;
+            margin-left: -2px;
+            font-family: sans-serif;
+        }
+        #para1 >div:nth-child(2) >h4 {
+            color: #404040;
+        }
+        #para1 >div:nth-child(2) >p {
+            font-size: 12px;
+            color: #666666;
+            
+        }
+        #para1 >div:nth-child(2) >ol {
+            font-size: 12px;
+            color: #666666;
+        }
+        #para1 >div:nth-child(3){
+            width: 100%;
+            height: 170px;
+            /* border: 2px solid red; */
+            margin-top: 0px;
+            margin-left: -2px;
+            font-family: sans-serif;
+        }
+        #para1 >div:nth-child(3) >h4 {
+            color: #404040;
+        }
+        #para1 >div:nth-child(3) >p {
+            font-size: 12px;
+            color: #666666;
+            
+        }
+        #para1 >div:nth-child(3) >ul {
+            font-size: 12px;
+            color: #666666;
+        }
+        #para1 >div:nth-child(4){
+            width: 100%;
+            height: 220px;
+            /* border: 2px solid red; */
+            margin-top: 0px;
+            margin-left: -2px;
+            font-family: sans-serif;
+        }
+        #para1 >div:nth-child(4) >h4 {
+            color: #404040;
+        }
+        #para1 >div:nth-child(4) >p {
+            font-size: 12px;
+            color: #666666;
+            
+        }
+        #para1 >div:nth-child(4) >ol {
+            font-size: 12px;
+            color: #666666;
+        }
+        #para1 >div:nth-child(5){
+            width: 100%;
+            height: 90px;
+            /* border: 2px solid red; */
+            margin-top: 0px;
+            margin-left: -2px;
+            font-family: sans-serif;
+        }
+        
+        #para1 >div:nth-child(5) >h4 {
+            color: #404040;
+        }
+        #para1 >div:nth-child(5) >p {
+            font-size: 12px;
+            color: #666666;
+            
+        }
+        #para1 >div:nth-child(6){
+            width: 100%;
+            height: 400px;
+            /* border: 2px solid red; */
+            margin-top: 0px;
+            margin-left: -2px;
+            font-family: sans-serif;
+        }
+        #para1 >div:nth-child(6) >h4 {
+            color: #404040;
+        }
+        #para1 >div:nth-child(6) >h5 {
+            color: #666262;
+            font-size: 13px;
+            margin-bottom: 0px;
+        }
+        #para1 >div:nth-child(6) >p {
+            font-size: 12px;
+            color: #777676;
+            margin-top: 8px;
+        }
+        #para1 >div:nth-child(7) {
+            width: 100%;
+            height: 70px;
+            /* border: 2px solid red; */
+            margin-top: 10px;
+            margin-left: -2px;
+            font-family: sans-serif;
+            display: flex;
+        }
+        #para1 >div:nth-child(7) >h3 {
+            color: #404040;
+            margin-right:10px;
+        }
+        #para1 >div:nth-child(7) >img {
+            width: 15%;
+            height: 45px;
+            margin-top: 5px;
+        }
+        #footer {
+            width: 100%;
+            height: 300px;
+            /* border: 2px solid red; */
+            margin-top: 10px;
+            margin-left: -2px;
+            font-family: sans-serif;
+        }
+        
+        @media screen and ( max-width:450px) {
+            #screen >div:nth-child(1) {
+                display: none;
+            }
+            #head  {
+                width: 100%;
+                height: 500px;
+            }
+            #head >div:nth-child(3){
+            width: 90%;
+            height: 300px;
+            border: 2px solid red;
+            margin: 10px;
+        }
+        #head >div:nth-child(3) {
+            flex-direction: column; 
+        }
+        #text {
+            width: 100%;
+            height: 50px;
+            /* border: 2px solid red; */
+        }
+        #text >div:nth-child(2) {
+            flex-direction: column;
+        }
+            
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div id="screen">
+        <div>
+            <div>
+                <img src="https://zeevector.com/wp-content/uploads/2021/02/Mobikwik-Logo-Vector-White.png"/>
+                <div>
+                    <img src="https://www.shutterstock.com/image-vector/blue-lighting-bolt-sign-electric-600w-468829118.jpg"/>
+                    <h3>Recharge & Bill Pay</h3>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiRS37JpLUWKFo3mgA9_EvrLqLxSUZxq2YstIj8kiq4R4lhE-RhRYIe4_tG4dxTo-yD7iA0FEdfK4&usqp=CAU&ec=48665701"/>
+                    <h3>Transfer to Bank</h3>
+                </div>
+                <div>
+                    <img src="https://cdn.xxl.thumbs.canstockphoto.com/price-tag-icon-on-blue-background-price-tag-icon-coupon-sign-label-symbol-thin-line-icon-on-blue-illustration_csp33462020.jpg"/>
+                    <h3>Offers & Deals</h3>
+                </div>
+                <div>
+                    <img src="https://i.pinimg.com/originals/43/3d/da/433ddab0298d4407676a3b631378be28.png"/>
+                    <h3>Local Stores</h3>
+                </div>
+                <div>
+                    <img src="https://thumb1.shutterstock.com/mosaic_250/168215870/427005652/stock-vector-claim-with-jean-texture-427005652.jpg"/>
+                    <h3>Redeem Payback Points</h3>
+                </div>
+                <div>
+                    <img src="https://i.pinimg.com/originals/1a/a0/af/1aa0af4dd75f380603ba66e6352f21b8.jpg"/>
+                    <h3>Wallet Transfer</h3>
+                </div>
+                <div>Products</div>
+                <div>
+                    <img src="https://www.mobikwik.com/assets/images/xtra-icon.png"/>
+                    <h3>Xtra</h3>
+                </div>
+                <div>
+                    <img src="https://www.mobikwik.com/assets/images/zip-icon.png"/>
+                    <h3>ZIP</h3>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRigwZ0nhvD8Euh9xKIfLfWFrCCoXUa0_O60qBLf6F4xUeCQ08y2gWK3Ii07fjo1hmMOYxYCbCGTZ4&usqp=CAU&ec=48665701"/>
+                    <h3>Mutual Funds</h3>
+                </div>
+                <div>
+                    <img src="https://w7.pngwing.com/pngs/138/896/png-transparent-indian-rupee-currency-symbol-computer-icons-rupee-blue-trademark-logo.png"/>
+                    <h3>Payment Gateway</h3>
+                </div>
+                <div>
+                    <img src="https://e7.pngegg.com/pngimages/398/664/png-clipart-computer-icons-partnership-icon-design-business-business-hand-people.png"/>
+                    <h3>Become a Partner</h3>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <div>What we do?</div><hr>
+                <div>Help and support?</div><hr>
+                <div>Login</div><hr>
+                <div>Signup</div>
+            </div>
+            <div>
+                <div id="head">
+                    <div>
+                        <h2>Prepaid Mobile Recharge</h2>
+                        <h6>How it works?</h6>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="https://www.nicepng.com/png/detail/132-1327513_mobile-phone-icon-blue.png"/>
+                            <h4>Mobile </h4>
+                        </div>
+                        <div>
+                            <img src="https://media.istockphoto.com/id/1255721200/vector/antenna-dish-blue-color-satellite-icon.jpg?s=612x612&w=0&k=20&c=A7-t4Z84bJH2xLswF3ZAe-odsvsIXWwZIbFcSiH9144="/>
+                            <h4>DTH</h4>
+                        </div>
+                        <div>
+                            <img src="https://thumbs.dreamstime.com/b/lamp-bulb-light-icon-use-commercial-purposes-print-media-web-any-type-design-projects-lamp-bulb-light-icon-blue-vector-232281564.jpg"/>
+                            <h4>Electricity</h4>
+                        </div>
+                        <div>
+                            <img src="https://banner2.cleanpng.com/20180404/oyq/kisspng-area-rectangle-brand-cobalt-blue-credit-card-5ac4ed546b7326.4267962515228552524401.jpg"/>
+                            <h4>Credit Card</h4>
+                        </div>
+                        <div>
+                            <img src="https://thumbs.dreamstime.com/b/wireless-vector-double-colour-icon-wireless-icon-website-design-desktop-envelopment-development-premium-pack-195662729.jpg"/>
+                            <h4>Datacard</h4>
+                        </div>
+                        <div>
+                            <img src="https://www.clipartmax.com/png/middle/19-190920_navy-blue-office-phone-icon-office-phone-icon-png.png"/>
+                            <h4>Landline</h4>
+                        </div>
+                        <div>
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqZY3xJMF_BhdD1O_HKTasGyPcFErkTS1A5Wxiij5DxA&usqp=CAU&ec=48665701"/>
+                            <h4>Broadband</h4>
+                        </div>
+                        <div>
+                            <img src="data:image/png;base64,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"/>
+                            <h4>Piped Gas</h4>
+                        </div>
+                        <div>
+                            <img src="data:image/png;base64,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"/>
+                            <h4>Insurance</h4>
+                        </div>
+                        <div>
+                            <img src="data:image/jpeg;base64,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"/>
+                            <h4>More</h4>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <label> Mobile Number</label><br>
+                            <input type="tel" placeholder="Mobile number"/>
+                        </div>
+                        <div>
+                            <label> Operator</label><br>
+                            <input type=""/>
+                        </div>
+                        <div>
+                            <label> Circle</label><br>
+                            <input />
+                        </div>
+                        <div>
+                            <label> Amount</label><br>
+                            <input value="Number"/>
+                        </div>
+                        <button>GO</button>
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div id="text">
+                <div>
+                    <h3>What We Do</h3>
+                    <h5>Simple, fast and Hassle Free payments</h5>
+                </div>
+                <div>
+                    <div>
+                        <img src="https://media.istockphoto.com/id/1156787281/vector/blue-mobile-phone-icon.jpg?s=170667a&w=0&k=20&c=7jVvS-MNefK3L1gSuT3i4fq3ElWq1zfcgPmih2DD1e4="/>
+                        <h5>Phone Recharge & DTH</h5>
+                        <p>With money loaded in your <br>MobiKwik wallet, it takes seconds to make phone and DTH recharges!</p>
+                    </div>
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/512/6192/6192588.png"/>
+                        <h5>Bill Payments</h5>
+                        <p>Pay all your bills across categories via MobiKwik in seconds and avoid late payment charges.</p>
+                    </div>
+                    <div>
+                        <img src="https://walkthechat.com/wp-content/uploads/2017/01/store-mng-icon-1.png"/>
+                        <h5>Shopping in Local Stores</h5>
+                        <p>With MobiKwik on your phone, enjoy over 2,50,000+ shopping options and earn big cashbacks and discounts in the process!</p>
+                    </div>
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/512/4635/4635361.png"/>
+                        <h5>Transfer money to bank</h5>
+                        <p>You can transfer money from Credit card to any Bank account.</p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div id="para1">
+                <div>
+                    <h4>Prepaid Mobile Recharge</h4>
+                    <p>Nowadays, everyone has a smartphone, and the number of smartphone users continues to rise. When it comes to mobile payment plans, users have two options: postpaid or prepaid.Prepaid mobile plans are those you must pay in advance to use them. Customers can choose from a variety of prepaid plans offered by various operators. People looking for budget-friendly options might consider prepaid subscriptions.
+                    <br>There are so many options available online to do your prepaid mobile recharge, but MobiKwik is one of the most trustworthy digital payments app to make your life easier.</p>
+                </div>
+                <div>
+                    <h4>How to Make Prepaid Mobile Recharge Online?</h4>
+                    <p>Mobile phones are an intrinsic part of our lives, and so is online mobile recharge. Online recharge gives you the liberty to recharge your mobile phone number anytime and from anywhere, all you need is an internet connection. So. when you think of easy recharge options with mobile recharge offers, MobiKwik is the best platform to turn to.
+                    <br>You can now carry out your net recharge and bill payments for any number of your friends and family using MobiKwik. Prepaid mobile plans can be paid through Net Banking, Debit Card, Credit Card, Visa or Mastercard, and MobiKwik wallet.</p>
+                    <p>The process of online recharge is also as simple as it sounds. All you have to do is :-</p>
+                    <ol>
+                        <li>Open the MobiKwik app & under ‘Recharges & Bill Pay’ section, enter the phone number you want to carry out the online recharge for.</li>
+                        <li>Select the option from Prepaid/ Postpaid.</li>
+                        <li>Select your mobile operator.</li>
+                        <li>Select the circle you belong to.</li>
+                        <li>Check the online recharge plans designed exclusively for you or fill in the amount you want to recharge.</li>
+                        <li>Enter your mobile number again and put the received OTP.</li>
+                        <li>Complete the online recharge payment.</li>
+                    </ol>
+                </div>
+                <div>
+                    <h4>Prepaid vs Postpaid Mobile Recharge</h4>
+                    <p>Prepaid mobile plans require customers to pay in advance for mobile services, while postpaid mobile services require customers to pay monthly bills after utilizing the services.</p>
+                    <p>Below mentioned are a few differences between the two plans –</p>
+                    <ul>
+                        <li>Prepaid plans are less expensive when compared to postpaid plans.</li>
+                        <li>Prepaid plans are more flexible.</li>
+                        <li>Prepaid plans ensure no bill shock for users.</li>
+                        <li>Generally, prepaid recharge offers are more attractive and cost-effective.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Why Choose MobiKwik for Online Mobile Recharge?</h4>
+                    <p>There are several benefits available for recharging your mobile through MobiKwik. Check them out below.</p>
+                    <ol>
+                        <li>Instant Transactions: MobiKwik is fast and easy to use. So, a user can look for a suitable recharge plan and complete the recharge in just a few clicks. It does not even take a minute.</li>
+                        <li>Secure Payments: MobiKwik is 100% safe for making your payments. It offers end-to-end data protection with each prepaid recharge.</li>
+                        <li>No Transaction Cost: You will not be charged any additional money for making your prepaid recharge through MobiKwik. It’s a free service.</li>
+                        <li>More Savings: With MobiKwik, you can also save. It offers exciting discounts and cashback rewards on prepaid plans that helps you in increasing your savings.</li>
+                        <li>Various Payment Options: You can complete your prepaid recharge using any of the available payment methods suitable for you. MobiKwik accepts payment via Credit card, Debit card, UPI, ZIP pay later and many other payment methods.</li>
+                    </ol>
+                    <p>Mobikwik is India's No. 1 site for online easy recharges like Airtel Recharge, BSNL Recharge, Jio Recharge, MTNL Recharge, Tata Docomo Recharge, Tata Indicom Recharge, Vodafone Idea VI Recharge and more with various mobile recharge offers.</p>
+                </div>
+                <div>
+                    <h4>Free Mobile Recharge</h4>
+                    <p>MobiKwik does not charge you over any online recharges, i.e., on MobiKwik, it enables free mobile recharge. Moreover, it offers many discounts and phone recharge offers to its users.</p>
+                </div>
+                <div>
+                    <h4>Frequently Asked Questions on Online Prepaid Recharge</h4>
+                    <h5>Why Choose MobiKwik for Prepaid Recharge ?</h5>
+                    <p>Mobikwik is India's no. 1 site for online easy Mobile recharge. Mobikwik does not charge you over any online recharges i.e MobiKwik enables free mobile recharge and helps you save your time, effort and money.</p>
+                    <h5>Is Online Recharge Safe ?</h5>
+                    <p>Prepaid online recharges via MobiKwik are safe and seamless. There is no fear of fraudulent or unsafe payments when using MobiKwik.</p>
+                    <h5>By when can Recharge be done?</h5>
+                    <p>Mobile recharges via MobiKwik can be done quickly and instantly in a few simple steps. There is no hassle or shuffling to pages. Just a simple procedure, and your online recharge is done.</p>
+                    <h5>Which recharge app gives the best cashback?</h5>
+                    <p>MobiKwik recharge app gives you the best benefits with cashback offers, and exclusive recharge discounts and deals.</p>
+                    <h5>Is there any extra charge on Mobile Recharge?</h5>
+                    <p>MobiKwik enables free online recharge. There are no charges for any operator online recharge. MobiKwik has never charged its customers any extra fee for using the platform to recharge their mobile numbers.
+                        Download The App</p>
+                </div>
+                <div>
+                    <h3>Download The App </h3>
+                    <img src="https://www.mobikwik.com/assets/images/refere-Google-Play-app-page.png"/>
+                    <img src="https://www.mobikwik.com/assets/images/refer-app-store-app-page.png"/>
+                </div>
+                <div id="footer">
+                    dsvd
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
